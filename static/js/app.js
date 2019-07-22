@@ -35,15 +35,19 @@ function build_Table(table_Data) {
 
 // function buttonClick() {
 
+
 //     d3.event.preventDefault();
 //      let date = d3.select("#datetime").property("value");
+
 
 //      let data_Filtered = table_Data;
 
 //      if (date) {
 //        data_Filtered = data_Filtered.filter(row => row.datetime === date);
 //      }
+
 //      table(data_Filtered);
+
 //    }
 //    d3.selectAll("#filter-btn").on("click", buttonClick);
 //    table(table_Data);
@@ -82,3 +86,5 @@ submit.on("click", function() {
   build_Table(data_Filtered);
 
 });
+
+
