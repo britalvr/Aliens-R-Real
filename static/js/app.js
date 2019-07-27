@@ -33,28 +33,6 @@ function build_Table(table_Data) {
 
 
 
-// function buttonClick() {
-
-
-//     d3.event.preventDefault();
-//      let date = d3.select("#datetime").property("value");
-
-
-//      let data_Filtered = table_Data;
-
-//      if (date) {
-//        data_Filtered = data_Filtered.filter(row => row.datetime === date);
-//      }
-
-//      table(data_Filtered);
-
-//    }
-//    d3.selectAll("#filter-btn").on("click", buttonClick);
-//    table(table_Data);
-//    ;
-
-
-
 
 
 build_Table(table_Data);
@@ -69,16 +47,22 @@ let inputState = d3.select("#state");
 let inputCountry = d3.select("#country");
 let inputShape = d3.select("#shape");
 
-
+// function buttonClick() {
 submit.on("click", function() {
 
   d3.event.preventDefault();
 
-
+// let date = d3.select("#datetime").property("value");
   let input_Value = inputDate.property("value");
   console.log(input_Value);
 
+//      let data_Filtered = table_Data;
 
+//      if (date) {
+//        data_Filtered = data_Filtered.filter(row => row.datetime === date);
+//      }
+
+//      table(data_Filtered);
   let data_Filtered = table_Data.filter(UFO_report => UFO_report.datetime == input_Value);
   console.log(data_Filtered);
  
