@@ -1,5 +1,4 @@
-# Aliens-R-Real
-JavaScript and DOM Manipulation. Unit 14 Homework
+# Project found here: https://britalvr.github.io/Aliens-R-Real/
 
 
 # Unit 14 | Assignment - JavaScript and DOM Manipulation
